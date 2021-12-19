@@ -1,0 +1,32 @@
+.home-page {
+  padding: 20px;
+}
+.home-page h1 {
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.home-page button {
+  text-decoration: none;
+  display: inline-block;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 10%);
+  transition: 0.6s;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  transition: 0.4s;
+}
+
+.home-page button:hover {
+  background: #e52ed6;
+  box-shadow: 0 15px 20px rgba(229, 46, 189, 0.4);
+  color: white;
+  transform: translateY(-5px);
+}

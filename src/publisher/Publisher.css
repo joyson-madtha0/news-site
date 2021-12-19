@@ -1,0 +1,57 @@
+.publisher {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.back {
+  margin-left: 40px;
+}
+
+.publisher h1 {
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.publisher > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 33.3%;
+}
+
+.card {
+  position: relative;
+  margin: 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card > div {
+  padding-bottom: 20px;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    width: 100%;
+  }
+}
